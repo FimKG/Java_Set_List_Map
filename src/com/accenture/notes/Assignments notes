@@ -1,0 +1,58 @@
+List Assignment:
+------------------
+Create a Course class with data members as 
+	int courseId, 
+	string courseName,
+	int courseDuration and 
+	int courseFee. 
+Add parameterized constructor to initialize the data members. 
+Also add getter-setter method for each data member.
+
+Create a CourseService class with printAllCoursesSorted() method which helps to sort the courses based on 
+course fee and prints course names and fees.
+
+Create CourseComparableTester class. 
+Create 3 course objects. 
+Add all objects into a list. 
+Pass this list to printAllCoursesSorted() method of service class to print course name and fees.
+
+Set Assignment:
+------------------
+Create a Course class with data members as
+	int courseId,
+	String courseName,
+	int courseDuration and
+	int courseFee.
+Add parameterized constructor to initialize the data members.
+Also add getter-setter method for each data member.
+
+Create a CourseService class with
+A printAllCoursesFeesSorted() method which helps to sort the courses based on course fee and prints.
+A printAllCoursesNamesSorted() method which helps to sort the courses based on course name and prints.
+A printAllCoursesDurationSorted() method which helps to sort the courses based on course duration and prints.
+
+Create CourseComparatorTester class.
+Create 3 course objects.
+Add all objects into a set.
+Pass the set to
+printAllCoursesFeesSorted() method,
+printAllCoursesNamesSorted() method and
+printAllCoursesDurationSorted() method of service class to print the details.
+
+Map Assignment:
+---------------------
+Create a Transaction class in for holding details such
+	String transactionId,
+	long senderAccountNumber,
+	long recipientAccountNumber and
+	double transactionAmount.
+Also add parameterized constructors to set their values, getters-setters and toString() method.
+
+Create a TransactionService class which has printAllTransactions() method which helps to
+filter transactions corresponding to a particular account.
+
+Create a TransactionTester class with main method.
+Create 3 transaction objects and add all objects into a map so that the order of transactions is kept.
+The map should store transactionId as key and transaction object as value.
+Pass this map and account number to printAllTransactions() method and
+print transactions ids for the specified account.
