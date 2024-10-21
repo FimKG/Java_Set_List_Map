@@ -14,7 +14,7 @@ import com.accenture.maptask.TransactionService;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class TransactionTester {
+public class TransactionTester_Map {
 
     public static void main(String[] args) {
         // Create 3 transaction objects
