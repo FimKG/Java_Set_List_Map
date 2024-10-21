@@ -15,7 +15,7 @@ import com.accenture.settask.CourseService;
 import java.util.HashSet;
 import java.util.Set;
 
-public class CourseComparatorTester_Map {
+public class CourseComparatorTester_Set {
 
     public static void main(String[] args) {
         // Create 3 List objects
